@@ -1,0 +1,349 @@
+.parentcontainer{
+    display: flex;
+    border: 1px solid;
+    flex-direction: column;
+}
+.container-navigation{
+    border: 1px solid;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    background-color: rgb(242, 250, 250);
+}
+.dit-io{
+    width: 2%;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 20px 0;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .navbar ul li {
+    margin: 0 15px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: #83818c; 
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .button{
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+  }
+  #login{
+    border: none;
+    padding: 20px;
+    width: 130%;
+    border-radius: 20px;
+  }
+  #signup{
+    border: none;
+    background-color: rgb(151, 33, 72);
+    padding: 20px;
+    width: 130%;
+    border-radius: 20px;
+    color: white;
+  }
+  .box-collection{
+    border: 1px solid;
+    display: flex;
+    gap: 20px;
+    background-color: rgb(240, 250, 250);
+    padding-top: 100px;
+    padding-bottom: 300px;
+  }
+  .text-box--elem img{
+    position: absolute;
+    overflow: visible;
+    width: 50%;
+    rotate: -8deg;
+    padding-left:200px;
+    padding-top: 300px;
+    height: 50%;
+  }
+  .container-paragraph{
+    border: 1px solid;
+    text-align: center;
+    font-size: 20px;
+  }
+  .trapezoid {
+	border-left: 50px solid pink;
+	border-top: 10px solid transparent;
+	border-bottom: 35px solid transparent;
+	height: 125px;
+	width: 0px;
+    border-radius:0px 280px 280px 0px;
+}
+.appstore{
+    background-color: rgb(4, 4, 36);
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 10px;
+    width: 40%;
+}
+.appstore a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    
+}
+.appstore-icon{
+    width: 14%;
+}
+.playstore{
+    background-color: rgb(253, 253, 253);
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 10px;
+    width: 40%;
+    border: 2px solid;
+}
+.playstore a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(4, 4, 36);
+}
+.playstore-icon{
+    width: 14%;
+}
+.text-store{
+    display: flex;
+    gap: 10px;
+}
+#charge{
+    color: red;
+}
+.firstbox{
+    border: 1px solid rgb(194, 193, 193); 
+    padding: 30px;
+    border-radius: 10px;
+    width: 130%;
+    rotate: -8deg;
+}
+.box-image img{
+    width: 10%;
+    border-radius: 50%;
+}
+.circle {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid rgb(224, 45, 200);
+    background-image:url(picture/7567b9bf846e04722b16387aeaf93a99.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .box-text__image{
+    display: flex;
+    gap: 60px;
+  }
+  .box-text{
+    background-color: rgb(233, 241, 241);
+    color: blue;
+  }
+  .paragraphs{
+    display: flex;
+    justify-content: space-between;
+  }
+  .text-box--elem{
+    display: flex;
+    gap: 600px;
+  }
+  .circle-one{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid rgb(224, 45, 200);
+    background-image:url(picture/girl.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .circle-two{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid rgb(224, 45, 200);
+    background-image:url(picture/muslim.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .circle-three{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid rgb(224, 45, 200);
+    background-image:url(picture/curly.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .box-item{
+   position: absolute;
+   overflow: visible;
+   margin-top: 150px;
+   margin-left: 500px;
+   rotate: 20deg;
+  }
+  .profile-hr{
+    width: 50%;
+    padding-left: 200px;
+  }
+  .box-loading{
+    position: absolute;
+    overflow: visible;
+    display: flex;
+    border: 1px solid rgb(194, 193, 193);
+    margin-top: 550px;
+    gap: 80px;
+  }
+  .loading-icon{
+    position: absolute;
+    overflow: visible;
+    margin-top: 300px;
+  }
+  .web-icons{
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+  }
+ #trello{
+    width: 1%;
+  }
+#microsoft{
+  width: 9%;
+}
+#product{
+  color: red;
+}
+.paragraph-product{
+  text-align: center;
+}
+.container-transfers{
+  border: 1px solid;
+  display: flex;
+  padding: 30px;
+  text-align: center;
+  justify-content: space-between;
+}
+.interface{
+  border: 3px solid pink;
+}
+#support{
+  width: 3%;
+}
+#numbers{
+  color: red;
+}
+.container-heading--stickers{
+  border: 1px solid;
+}
+.heading{
+  text-align: center;
+}
+#mobile{
+  width: 4%;
+}image-stores
+.mobile-settings{
+  border: 1px solid;
+}
+.mobile-settings button{
+  color: white;
+  background-color: rgb(6, 6, 68);
+  padding: 20px;
+  border-radius: 20px;
+  width: 10%;
+}
+.head-ing{
+  text-align: center;
+}
+.firstclient{
+  border: 4px solid pink;
+  padding: 40px;
+  width: 40%;
+  font-size: 20px;
+  border-radius: 30px;
+}
+.secondclient{
+  padding: 40px;
+  width: 40%;
+  font-size: 20px;
+  border-radius: 30px;
+}
+.client-image{
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+  border: none;
+  background-image:url(picture/firstclient.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.client{
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+  border: none;
+  background-image:url(picture/secondclient.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.client-feedback{
+  border: 1px solid;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+.image-stores{
+    display: flex;
+}
+footer{
+    background-color: rgb(7, 7, 36);
+    display: flex;
+    gap: 90px;
+    padding: 50px;
+}
+.media-icons{
+    width: 5%;
+    display: flex;
+}
+.footer-elem{
+    color: white;
+    display: flex;
+    gap: 300px;
+}
+.copyright{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background-color: black;
+}
