@@ -2,13 +2,16 @@
     display: flex;
     border: 1px solid;
     flex-direction: column;
+    width: 96%;
 }
 .container-navigation{
     border: 1px solid;
     display: flex;
-    width: 90%;
+    width: 96.5%;
     justify-content: space-between;
     background-color: rgb(242, 250, 250);
+    padding-right: 30px;
+    padding-left: 30px;
 }
 .dit-io{
     width: 2%;
@@ -24,11 +27,16 @@
     list-style-type: none;
     display: flex;
   }
-  
+  .next-icon{
+    display: flex;
+  }
   .navbar ul li {
     margin: 0 15px;
   }
-  
+  .next-icon{
+    display: flex;
+    gap: 30px;
+  }
   .navbar ul li a {
     text-decoration: none;
     color: #83818c; 
@@ -39,6 +47,15 @@
     display: flex;
     margin: 20px;
     gap: 20px;
+  }
+  .contact-icon{
+    display: flex;
+    gap: 40px;
+  }
+  
+  #contact-icon{
+    width: 10%;
+    margin-top: 30px;
   }
   #login{
     border: none;
@@ -127,7 +144,7 @@
 }
 .firstbox{
     border: 1px solid rgb(194, 193, 193); 
-    padding: 30px;
+    padding: 20px;
     border-radius: 10px;
     width: 130%;
     rotate: -8deg;
@@ -162,7 +179,10 @@
   }
   .text-box--elem{
     display: flex;
-    gap: 600px;
+    gap: 300px;
+  }
+  .text-elem{
+    font-size: x-large;
   }
   .circle-one{
     height: 50px;
@@ -204,8 +224,9 @@
    position: absolute;
    overflow: visible;
    margin-top: 150px;
-   margin-left: 500px;
+   margin-left: 450px;
    rotate: 20deg;
+   background-color: white;
   }
   .profile-hr{
     width: 50%;
@@ -215,14 +236,60 @@
     position: absolute;
     overflow: visible;
     display: flex;
-    border: 1px solid rgb(194, 193, 193);
-    margin-top: 550px;
+    border:1px rgb(196, 188, 188);
+    margin-top: 500px;
     gap: 80px;
+    background-color: white;
+    width: 80%;
+
   }
   .loading-icon{
     position: absolute;
     overflow: visible;
     margin-top: 300px;
+  }
+  .rectangle {
+    height: 100px;
+    width: 450px;
+    background-color:rgb(243, 243, 161);
+  }
+  #shape{
+    background-color: rgb(218, 167, 218);
+    width: 10%;
+  }
+  .notification button{
+    padding: 10px;
+    width: 27%;
+    border-radius: 20px;
+    color: white;
+    background-color: blue;
+    border: none;
+  }
+.container-heading--stickers{
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+.container-sticker button{
+  padding: 10px;
+  width: 37%;
+  border-radius: 15px;
+  color: white;
+  background-color: rgb(235, 117, 139);
+  border: none;
+}
+  .container-text-notification{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+  }
+  .notification{
+    position: absolute;
+    overflow: visible;
+    background-color: white;
+    margin-left: 30px;
+  width: 20%;
+  padding-left: 10px;
   }
   .web-icons{
     border: 1px solid;
@@ -268,6 +335,7 @@
   width: 4%;
 }image-stores
 .mobile-settings{
+  display: flex;
   border: 1px solid;
 }
 .mobile-settings button{
