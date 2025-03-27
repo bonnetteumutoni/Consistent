@@ -299,7 +299,7 @@
     justify-content: space-between;
     padding: 30px;
   }
-#trello{
+ #trello{
     width: 1%;
   }
 #microsoft{
@@ -326,6 +326,7 @@
 .interface{
   border: 3px solid pink;
   width: 30%;
+  border-radius: 20px;
 }
 #support{
   width: 3%;
@@ -373,7 +374,7 @@
   width: 40%;
   font-size: 20px;
   border-radius: 30px;
-  padding-left: 120px;
+  padding-left: 80px;
 }
 .secondclient{
   padding: 40px;
@@ -491,7 +492,7 @@ footer{
   width: 3%;
   border-radius: 50%;
   border: 4px solid pink;
-  margin-right: 1680px;
+  margin-right: 1580px;
   margin-top: 90px;
   background-color: white;
   padding: 20px;
