@@ -27,9 +27,6 @@
     list-style-type: none;
     display: flex;
   }
-  .next-icon{
-    display: flex;
-  }
   .navbar ul li {
     margin: 0 15px;
   }
@@ -149,10 +146,19 @@
     border-radius: 10px;
     width: 130%;
     rotate: -8deg;
+    background-color: white;
 }
 .box-image img{
     width: 10%;
     border-radius: 50%;
+}
+.sad-emoji{
+  display: flex;
+  gap: 40px;
+}
+#sad-emoji{
+  width: 10%;
+  margin-top: 30px;
 }
 .circle {
     height: 50px;
@@ -279,6 +285,9 @@
   background-color: rgb(235, 117, 139);
   border: none;
 }
+.heading{
+  border: 1px solid;
+}
   .container-text-notification{
     display: flex;
     justify-content: space-around;
@@ -333,18 +342,32 @@
   text-align: center;
 }
 #mobile{
-  width: 4%;
-}image-stores
+  width: 10%;
+}
+.setting-style{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.settings{
+  padding-top: 40px;
+  rotate: 3deg;
+}
+
 .mobile-settings{
   display: flex;
-  border: 1px solid;
+  flex-direction: row-reverse;
+  gap: 300px;
+  padding-right: 90px;
+  padding-left: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-.mobile-settings button{
+.mobile button{
   color: white;
   background-color: rgb(6, 6, 68);
   padding: 20px;
   border-radius: 20px;
-  width: 10%;
+  width: 50%;
 }
 .head-ing{
   text-align: center;
@@ -420,4 +443,38 @@ footer{
   padding-left: 300px;
   padding-top: 200px;
   font-size: 20px;
+}
+.angel{
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+  border: dashed yellow;
+  background-image:url(picture/angelina.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 10px;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+#login-one{
+  padding: 10px;
+  width: 90%;
+  border-radius: 30px;
+}
+#signup-one{
+  margin-top: 10px;
+  padding: 10px;
+  width: 90%;
+  border-radius: 30px;
+  border: none;
+  background-color: rgb(214, 70, 94);
+}
+.login-setting h4{
+  text-align: center;
+}
+.login-setting{
+  rotate: 6deg;
 }
